@@ -2,16 +2,26 @@ package day1;
 
 public class LightBulb {
     /* States
-        -> Voltage
-        -> Color
-        -> Durability
-        -> Size
-        -> Glass Type
-        -> Nominal Power
-        -> Socket
-        -> Working Temperature
-        -> Beam Angle
+        -> Voltage (int)
+        -> Color (Char)
+        -> Durability (int)
+        -> Size (Char)
+        -> Glass Type (Char)
+        -> Nominal Power (float)
+        -> Socket (String)
+        -> Working Temperature (float)
+        -> Beam Angle (float)
     */
+
+        int voltage;
+        String color;
+        int durability;
+        String size;
+        String glassType;
+        float nominalPower;
+        String socket;
+        float workingTemperature;
+        float beamAngle;
 
     /* Constructors
      */

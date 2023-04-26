@@ -1,5 +1,7 @@
 package day2;
 
+import java.util.List;
+
 public class Product {
     /*
 
@@ -14,6 +16,25 @@ public class Product {
         Product Detail
         Vendor Id
         Rating
+     */
+
+    long productId;
+    String sku;
+    String productName;
+    double price;
+    double discountedPrice;
+    List images;
+    SizeAvailable sizeAvailable;
+    long numberOfStock;
+    String productDetail;
+    long vendorId;
+    Rating rating;
+    /*
+        Behaviour
+        -> Like
+        -> Share
+        -> Buy
+        -> Add to cart
      */
 
 
