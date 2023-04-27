@@ -20,9 +20,73 @@ public class BankAccount {
         -> Statements (List of something)
     */
 
-    String accountNumber;
-    double accountBalance;
-    AccountType accountType;
+    public double getAccountBalance() {
+        return accountBalance;
+    }
+
+    public void setAccountBalance(double accountBalance) {
+        this.accountBalance = accountBalance;
+    }
+
+    public String getAccountHolderName() {
+        return accountHolderName;
+    }
+
+    public void setAccountHolderName(String accountHolderName) {
+        this.accountHolderName = accountHolderName;
+    }
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
+
+    public String getUserName() {
+        return userName;
+    }
+
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+
+    public AccountType getAccountType() {
+        return accountType;
+    }
+
+    public void setAccountType(AccountType accountType) {
+        this.accountType = accountType;
+    }
+
+    public String getRoutingNumber() {
+        return routingNumber;
+    }
+
+    public void setRoutingNumber(String routingNumber) {
+        this.routingNumber = routingNumber;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    private String accountNumber;
+    private double accountBalance;
+    private String accountHolderName;
+    private  String phoneNumber;
+    private String userName;
+    private AccountType accountType;
+    private String routingNumber;
+    private String ssn;
+    private  String hashedSSN;
+    private String address;
+
 
 
     /* Constructors
@@ -36,8 +100,29 @@ public class BankAccount {
         Getters & Setters
     */
 
+    public String getAccountNumber(){
+        return accountNumber;
+    }
+
+    public void setAccountNumber(String accNumber)
+    {
+        accountNumber = accNumber;
+    }
+
+
+    public void setSSN(String socialNumber){
+        ssn = socialNumber;
+    }
+
+    public String getHashedSSN(){
+        return hashedSSN;
+    }
+
+
     public void getInstance(){
         BankAccount bankAccount = new BankAccount();
+        bankAccount.ssn = "vgghd";
+
     }
 }
 
