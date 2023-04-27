@@ -35,5 +35,9 @@ public class BankAccount {
         View Statement
         Getters & Setters
     */
+
+    public void getInstance(){
+        BankAccount bankAccount = new BankAccount();
+    }
 }
 

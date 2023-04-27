@@ -58,11 +58,9 @@ public class ShoppingApplication {
         featurePhone.slug = "featurephones";
 
 
-
-
-
-
-
+        String menuName = menFashion.menuName;
+        System.out.println(menuName);
 
     }
 }
+
