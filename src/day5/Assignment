@@ -1,0 +1,12 @@
+3. What are the different types of inheritance?
+Ans: The types of inheritance are single, multi-level, hierarchical, multiple, and hybrid.
+-In single inheritance, the subclass extends from the parent class. As a result, the subclass inherits all the properties and behaviors of its single-parent class.
+-The multi-level inheritance method involves one class inheriting features from its parent class, and the newly created sub-class inherits another class.
+-Hierarchical inheritance involves more than one subclass extending from a single parent class.
+-Multiple inheritance means that a subclass can inherit features from multiple parent classes.
+- Hybrid inheritance refers to the combination of two or more types of inheritance.
+
+5. What is the difference between dependency, aggregation and Inheritance in java? Explain with example for each one of them.
+Ans: Dependency refers to the “uses-a” relationship. It is possible for objects of a class to be created inside of methods of another class, which is called dependency. For example, In a customer class and an Order class. It is necessary for the Order class to reference the Customer class and save its data to save a new order. An object of the customer class is used by the order class. Therefore, the Customer class is dependent on the Order class.
+An aggregate "has-a" relationship is where each object has its own life cycle, but they are tied to each other by ownership. The customer has an object named Address, and the Address object contains information like city, state, and zipcode.
+An inheritance relationship refers to "is -a" relationship in which one class can access the methods and variables of another. As an example, the Tiger class (subclass) inherits methods and fields from the Animal class (parent class).
