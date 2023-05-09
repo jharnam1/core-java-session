@@ -1,0 +1,10 @@
+Types of classes :
+
+1. The class whose object cannot be created
+    Utility class and Constant Storing class. Example : Math.class
+2. Normal Class that has constructors
+    Date Class
+3. Creating the object without the constructors directly
+    The way of creating the object is complex then the constructors
+    are not exposed outside of the class.
+    Local Date, Calendar

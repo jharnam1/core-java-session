@@ -9,6 +9,7 @@ import day1.BankAccount;
       //bankAccount.ssn = "dadfda";
      // bankAccount.accountHolderName = "Jharna";
 
+    //  bankAccount.setAccountNumber("123456789");
      // bankAccount.getAccountNumber();
  // }
 //}

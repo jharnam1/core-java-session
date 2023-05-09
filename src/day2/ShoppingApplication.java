@@ -61,6 +61,17 @@ public class ShoppingApplication {
         String menuName = menFashion.menuName;
         System.out.println(menuName);
 
+
+        Product earPod = new Product(1L,"123443385_NP-1033542747", "Earpods Pro 2 TWS wireless Earbuds With Wireless Charging", 3500, 2550,10,"Detail of earpod", 1);
+        earPod.setPrice(4500);
+        earPod.setDiscountedPrice(3000);
+
+
+
+
+        Product kurtha = new Product(2L, "119226220_NP-1032702337","Aamayra Fashion House Black Straight Kurti With Peach Pant And Shawl Set For Women", 6000, 1999, SizeAvailable.XL, 10, "Detail", 2);
     }
 }
+
+
 
