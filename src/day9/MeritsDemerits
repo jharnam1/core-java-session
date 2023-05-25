@@ -1,0 +1,10 @@
+
+Q. 15. String is Immutable class. What are the demerits and merits of string being immutable class.
+
+
+-Multithreading is safe since strings are immutable. The string can be shared between threads without anyone changing it and confusing the others.
+
+-The hash values they contain cannot be changed after the string is created, so they can be used as keys or elements in dictionaries or sets.
+
+Demerits
+-If a string has many modifications, they can be less efficient because a new string must be created each time.
