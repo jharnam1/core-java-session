@@ -1,0 +1,16 @@
+Java 11
+-Local-Variable Syntax for Lambda Parameters
+- New methods added to the string class ( isBlank, lines, strip, stripLeading, stripTrailing, and repeat)
+- HTTP Client has been standardized
+- Can use new readString and writeString static methods from the Files class
+- No need to compile the Java source files with javac explicitly
+
+
+
+Java 17
+- Restoration of always-strict semantics for floating-points
+- Full support for sealed Java classes
+- improvement on Pseudo-random number generators (provides a new interface type and implementations)
+- Source Details in Error Messages
+- Strongly encapsulates all non-critical internal elements of the JDK
+- Foreign Functions & memory API introduced by which java programs can interpret code and data outside of the java runtime.
